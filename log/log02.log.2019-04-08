@@ -1,0 +1,123 @@
+2019-04-08 11:44:18,373 INFO [root] [base.py (__init__:9] - [base]:正在获取初始driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="84fdd837-9bfd-4729-bca6-279af943cc50")>
+2019-04-08 11:44:18,373 INFO [root] [page_login.py (page_click_login_link:11] - [page_logging]执行:('partial link text', '登录')点击连接操作
+2019-04-08 11:44:18,374 INFO [root] [base.py (base_click:20] - [base]:正在对('partial link text', '登录')元素实行点击事件
+2019-04-08 11:44:18,374 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('partial link text', '登录')元素，默认定位超时时间为：30
+2019-04-08 11:44:45,705 ERROR [root] [test_login.py (setUpClass:32] - 错误：Message: Window not found. The browser window may have been closed.
+Stacktrace:
+    at nsCommandProcessor.prototype.execute (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/command-processor.js:12602)
+    at Dispatcher.executeAs/< (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/driver-component.js:9455)
+    at Resource.prototype.handle (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/driver-component.js:9602)
+    at Dispatcher.prototype.dispatch (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/driver-component.js:9549)
+    at WebDriverServer/<.handle (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/driver-component.js:12390)
+    at createHandlerFunc/< (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+    at ServerHandler.prototype.handleResponse (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+    at Connection.prototype.process (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+    at RequestReader.prototype._handleResponse (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+    at RequestReader.prototype._processBody (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+    at RequestReader.prototype.onInputStreamReady (file:///C:/Users/ADMINI~1/AppData/Local/Temp/tmpodglpxf5/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+2019-04-08 11:44:45,706 INFO [root] [base.py (base_get_image:35] - [base]:断言出错，调用截图
+2019-04-08 11:45:13,087 INFO [root] [base.py (__init__:9] - [base]:正在获取初始driver对象：<selenium.webdriver.firefox.webdriver.WebDriver (session="9d5cffce-a491-456c-9369-3294ceebcb4e")>
+2019-04-08 11:45:13,088 INFO [root] [page_login.py (page_click_login_link:11] - [page_logging]执行:('partial link text', '登录')点击连接操作
+2019-04-08 11:45:13,088 INFO [root] [base.py (base_click:20] - [base]:正在对('partial link text', '登录')元素实行点击事件
+2019-04-08 11:45:13,088 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('partial link text', '登录')元素，默认定位超时时间为：30
+2019-04-08 11:45:15,753 INFO [root] [page_login.py (page_login:50] - [page_logging]正在执行登录操作，用户名：13800001111 密码：  验证码 8888
+2019-04-08 11:45:15,753 INFO [root] [page_login.py (page_input_username:15] - [page_logging]执行:('css selector', '#username')元素，输入用户名：13800001111操作
+2019-04-08 11:45:15,753 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#username')元素，
+2019-04-08 11:45:15,754 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#username')元素，默认定位超时时间为：30
+2019-04-08 11:45:15,890 INFO [root] [page_login.py (page_input_password:19] - [page_logging]执行:('css selector', '#password')元素，输入密码：操作
+2019-04-08 11:45:15,891 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#password')元素，
+2019-04-08 11:45:15,891 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#password')元素，默认定位超时时间为：30
+2019-04-08 11:45:15,985 INFO [root] [page_login.py (page_input_verify_code:23] - [page_logging]执行:('css selector', '#verify_code')元素，输入验证码：8888操作
+2019-04-08 11:45:15,985 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#verify_code')元素，
+2019-04-08 11:45:15,986 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#verify_code')元素，默认定位超时时间为：30
+2019-04-08 11:45:16,078 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:16,078 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:16,240 INFO [root] [base.py (base_get_text:31] - [base]:正在获取('css selector', '.layui-layer-content')文本
+2019-04-08 11:45:16,241 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.layui-layer-content')元素，默认定位超时时间为：30
+2019-04-08 11:45:16,392 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:16,392 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:16,513 INFO [root] [page_login.py (page_login:50] - [page_logging]正在执行登录操作，用户名：13800001111 密码：123456  验证码 
+2019-04-08 11:45:16,513 INFO [root] [page_login.py (page_input_username:15] - [page_logging]执行:('css selector', '#username')元素，输入用户名：13800001111操作
+2019-04-08 11:45:16,513 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#username')元素，
+2019-04-08 11:45:16,514 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#username')元素，默认定位超时时间为：30
+2019-04-08 11:45:16,684 INFO [root] [page_login.py (page_input_password:19] - [page_logging]执行:('css selector', '#password')元素，输入密码：123456操作
+2019-04-08 11:45:16,684 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#password')元素，
+2019-04-08 11:45:16,684 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#password')元素，默认定位超时时间为：30
+2019-04-08 11:45:16,816 INFO [root] [page_login.py (page_input_verify_code:23] - [page_logging]执行:('css selector', '#verify_code')元素，输入验证码：操作
+2019-04-08 11:45:16,816 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#verify_code')元素，
+2019-04-08 11:45:16,817 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#verify_code')元素，默认定位超时时间为：30
+2019-04-08 11:45:16,949 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:16,949 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:17,051 INFO [root] [base.py (base_get_text:31] - [base]:正在获取('css selector', '.layui-layer-content')文本
+2019-04-08 11:45:17,051 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.layui-layer-content')元素，默认定位超时时间为：30
+2019-04-08 11:45:17,099 ERROR [root] [test_login.py (test_login:68] - 错误： :: 密码不能为空! != 验证码不能为空!
+2019-04-08 11:45:17,099 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:17,100 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:17,196 INFO [root] [page_login.py (page_login:50] - [page_logging]正在执行登录操作，用户名：13800001112 密码：123456  验证码 8888
+2019-04-08 11:45:17,196 INFO [root] [page_login.py (page_input_username:15] - [page_logging]执行:('css selector', '#username')元素，输入用户名：13800001112操作
+2019-04-08 11:45:17,197 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#username')元素，
+2019-04-08 11:45:17,197 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#username')元素，默认定位超时时间为：30
+2019-04-08 11:45:17,331 INFO [root] [page_login.py (page_input_password:19] - [page_logging]执行:('css selector', '#password')元素，输入密码：123456操作
+2019-04-08 11:45:17,331 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#password')元素，
+2019-04-08 11:45:17,332 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#password')元素，默认定位超时时间为：30
+2019-04-08 11:45:17,435 INFO [root] [page_login.py (page_input_verify_code:23] - [page_logging]执行:('css selector', '#verify_code')元素，输入验证码：8888操作
+2019-04-08 11:45:17,435 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#verify_code')元素，
+2019-04-08 11:45:17,435 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#verify_code')元素，默认定位超时时间为：30
+2019-04-08 11:45:17,551 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:17,552 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:17,666 INFO [root] [base.py (base_get_text:31] - [base]:正在获取('css selector', '.layui-layer-content')文本
+2019-04-08 11:45:17,666 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.layui-layer-content')元素，默认定位超时时间为：30
+2019-04-08 11:45:17,699 ERROR [root] [test_login.py (test_login:68] - 错误： :: 密码不能为空! != 账号不存在!
+2019-04-08 11:45:17,699 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:17,700 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:17,785 INFO [root] [page_login.py (page_login:50] - [page_logging]正在执行登录操作，用户名：138000011112 密码：123456  验证码 8888
+2019-04-08 11:45:17,785 INFO [root] [page_login.py (page_input_username:15] - [page_logging]执行:('css selector', '#username')元素，输入用户名：138000011112操作
+2019-04-08 11:45:17,786 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#username')元素，
+2019-04-08 11:45:17,786 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#username')元素，默认定位超时时间为：30
+2019-04-08 11:45:17,910 INFO [root] [page_login.py (page_input_password:19] - [page_logging]执行:('css selector', '#password')元素，输入密码：123456操作
+2019-04-08 11:45:17,910 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#password')元素，
+2019-04-08 11:45:17,910 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#password')元素，默认定位超时时间为：30
+2019-04-08 11:45:18,019 INFO [root] [page_login.py (page_input_verify_code:23] - [page_logging]执行:('css selector', '#verify_code')元素，输入验证码：8888操作
+2019-04-08 11:45:18,019 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#verify_code')元素，
+2019-04-08 11:45:18,019 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#verify_code')元素，默认定位超时时间为：30
+2019-04-08 11:45:18,111 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:18,112 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:18,265 INFO [root] [base.py (base_get_text:31] - [base]:正在获取('css selector', '.layui-layer-content')文本
+2019-04-08 11:45:18,265 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.layui-layer-content')元素，默认定位超时时间为：30
+2019-04-08 11:45:18,364 ERROR [root] [test_login.py (test_login:68] - 错误： :: 密码不能为空! != 账号格式不匹配!
+2019-04-08 11:45:18,364 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:18,365 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:18,535 INFO [root] [page_login.py (page_login:50] - [page_logging]正在执行登录操作，用户名：13800001111 密码：1234566  验证码 8888
+2019-04-08 11:45:18,536 INFO [root] [page_login.py (page_input_username:15] - [page_logging]执行:('css selector', '#username')元素，输入用户名：13800001111操作
+2019-04-08 11:45:18,536 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#username')元素，
+2019-04-08 11:45:18,536 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#username')元素，默认定位超时时间为：30
+2019-04-08 11:45:18,682 INFO [root] [page_login.py (page_input_password:19] - [page_logging]执行:('css selector', '#password')元素，输入密码：1234566操作
+2019-04-08 11:45:18,683 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#password')元素，
+2019-04-08 11:45:18,683 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#password')元素，默认定位超时时间为：30
+2019-04-08 11:45:18,812 INFO [root] [page_login.py (page_input_verify_code:23] - [page_logging]执行:('css selector', '#verify_code')元素，输入验证码：8888操作
+2019-04-08 11:45:18,812 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#verify_code')元素，
+2019-04-08 11:45:18,812 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#verify_code')元素，默认定位超时时间为：30
+2019-04-08 11:45:18,929 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:18,929 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:19,013 INFO [root] [base.py (base_get_text:31] - [base]:正在获取('css selector', '.layui-layer-content')文本
+2019-04-08 11:45:19,013 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.layui-layer-content')元素，默认定位超时时间为：30
+2019-04-08 11:45:19,055 ERROR [root] [test_login.py (test_login:68] - 错误： :: 账号格式不匹配! != 密码错误!
+2019-04-08 11:45:19,056 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:19,056 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:19,138 INFO [root] [page_login.py (page_login:50] - [page_logging]正在执行登录操作，用户名：13800001111 密码：123456  验证码 88889
+2019-04-08 11:45:19,138 INFO [root] [page_login.py (page_input_username:15] - [page_logging]执行:('css selector', '#username')元素，输入用户名：13800001111操作
+2019-04-08 11:45:19,138 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#username')元素，
+2019-04-08 11:45:19,139 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#username')元素，默认定位超时时间为：30
+2019-04-08 11:45:19,251 INFO [root] [page_login.py (page_input_password:19] - [page_logging]执行:('css selector', '#password')元素，输入密码：123456操作
+2019-04-08 11:45:19,252 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#password')元素，
+2019-04-08 11:45:19,252 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#password')元素，默认定位超时时间为：30
+2019-04-08 11:45:19,377 INFO [root] [page_login.py (page_input_verify_code:23] - [page_logging]执行:('css selector', '#verify_code')元素，输入验证码：88889操作
+2019-04-08 11:45:19,378 INFO [root] [base.py (base_input:25] - [base]:正在输入('css selector', '#verify_code')元素，
+2019-04-08 11:45:19,378 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '#verify_code')元素，默认定位超时时间为：30
+2019-04-08 11:45:19,502 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:19,502 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
+2019-04-08 11:45:19,599 INFO [root] [base.py (base_get_text:31] - [base]:正在获取('css selector', '.layui-layer-content')文本
+2019-04-08 11:45:19,600 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.layui-layer-content')元素，默认定位超时时间为：30
+2019-04-08 11:45:19,635 ERROR [root] [test_login.py (test_login:68] - 错误： :: 账号格式不匹配! != 验证码错误
+2019-04-08 11:45:19,635 INFO [root] [base.py (base_click:20] - [base]:正在对('css selector', '.J-login-submit')元素实行点击事件
+2019-04-08 11:45:19,635 INFO [root] [base.py (base_find_element:14] - [base]:正在查找('css selector', '.J-login-submit')元素，默认定位超时时间为：30
